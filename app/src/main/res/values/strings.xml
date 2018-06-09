@@ -1,10 +1,15 @@
 <resources>
-    <string name="app_name">AlbumRusia</string>
+    <string name="app_name">Album Estrellas de Rusia 2018</string>
     <string name="title_album">Album</string>
     <string name="title_tienda">Tienda</string>
     <string name="title_avance">Avance</string>
+    <string name="title_intercambio">Intercambio</string>
+    <string name="title_seleccionada">Selecccionada</string>
+
 
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
 </resources>
