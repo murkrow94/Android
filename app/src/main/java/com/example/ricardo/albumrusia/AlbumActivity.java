@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 
 
 public class AlbumActivity extends Fragment {
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

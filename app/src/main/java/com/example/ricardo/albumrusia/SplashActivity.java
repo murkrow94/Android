@@ -26,7 +26,7 @@ public class SplashActivity extends Activity {
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar1);
         progressBar.setProgress(0);
-        final long intervalo = 45;
+        final long intervalo = 25;
         timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override

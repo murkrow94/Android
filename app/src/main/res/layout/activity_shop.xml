@@ -7,29 +7,14 @@
     android:background="@drawable/wallz"
     tools:context=".ShopActivity">
 
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="match_parent"
-        android:layout_height="495dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </ScrollView>
-
     <LinearLayout
         android:layout_width="150dp"
         android:layout_height="258dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/scrollView2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
@@ -52,7 +37,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginEnd="26dp"
         android:layout_marginTop="58dp"
-        android:text="¿Deseas comprar sobres?"
+        android:text="@string/compra"
         android:textColor="@color/cardview_light_background" />
 
     <Button
@@ -63,7 +48,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginEnd="67dp"
         android:layout_marginTop="128dp"
-        android:background="@android:color/holo_blue_light"
+        android:background="#0b86b4"
         android:shadowColor="@android:color/holo_blue_dark"
         android:text="Comprar"
         android:textColor="@color/cardview_light_background"
@@ -75,13 +60,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="185dp"
-        android:layout_marginStart="103dp"
-        android:background="@color/cardview_shadow_end_color"
-        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="129dp"
+        android:layout_marginStart="21dp"
+        android:background="#2f46f7"
         android:shadowColor="@color/backgroundColor"
         android:text="Sobres disponibles:"
-        android:textColor="@color/cardview_light_background" />
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24dp" />
 
 
 </RelativeLayout>

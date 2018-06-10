@@ -23,8 +23,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="¿Desea intercambiar las estampas"
-            android:textSize="35sp" />
+            android:text="@string/title_cambio"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/editText"
